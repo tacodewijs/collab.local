@@ -280,3 +280,18 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+header {
+    text-align: center;
+    background-color: #b3d4fc;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+}
