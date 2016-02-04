@@ -10,10 +10,23 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+* {
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+
+	height: 100%;
+	min-height: 100%;
+
+	width: 100%;
+
+	background: #1ae;
 }
 
 /*
@@ -251,8 +264,8 @@ textarea {
     }
 
     /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     *  Printing Tables:
+     *  http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
     thead {
@@ -280,3 +293,46 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+#wrapper {
+
+	height: 100%;
+	max-width: 80%;
+
+	margin: 20px auto;
+}
+
+#main-content {
+
+
+}
+
+.container {
+
+	width: 32%;
+
+	display: inline-block;
+	position: relative;
+
+	padding: 50px;
+
+	margin-right: 1.5%;
+	text-align: center;
+
+	background: #878787;
+
+	border-radius: 35px;
+}
+
+.container.last {
+
+	margin-right: 0;
+}
+
+.container.full {
+
+	margin-top: 35px;
+
+	width: 100%;
+}
+
