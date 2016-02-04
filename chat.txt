@@ -7,3 +7,5 @@ je samen om dit project tot een succesvol einde te brengen.
 Top! De structuur staat al. Wat wil jij graag doen?
 
 Ik doe de header wel! - Tim
+
+Helemaal goed, ik zal een branch voor je aanmaken.
